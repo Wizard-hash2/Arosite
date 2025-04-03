@@ -1,8 +1,10 @@
-# Arosite Website
+# 🎯Arosite Website 🚀
 
 This is my personal portfolio website showcasing my projects, skills, and experiences. It is built using HTML, CSS, and JavaScript and designed for responsiveness and performance.
 
-# Features
+# Features 💻
+
+🌟 
 
 - Fully Responsive – Works on all screen sizes.
 - Project Showcase – Displays my best work with descriptions, images and links.
@@ -10,13 +12,14 @@ This is my personal portfolio website showcasing my projects, skills, and experi
 - Contact Form – Allows users to reach out to me directly.
 - Optimized Performance – Ensures fast loading times.
 
-## Technologies Used
+## Technologies Used  🚀
 
 - **HTML5** – Structure and content
 - **CSS3** – Styling and animations
 - **JavaScript** – Interactive elements and logic
 
-## Installation & Setup
+## Installation & Setup💻
+
 
 Follow these steps to set up the project locally:
 
@@ -39,7 +42,7 @@ Follow these steps to set up the project locally:
 - Navigate to the **About Me** section for more details.
 - Use the **Contact Form** to get in touch with me.
 
-## Deployment
+## Deployment 🚀
 
 The portfolio is deployed at: https://wizard-hash2.github.io/Arosite
 
