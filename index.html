@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AonieSite</title>
+
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha512..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="main.js"></script>
+  <link rel="icon"
+    href="https://images.pexels.com/photos/96381/pexels-photo-96381.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2 " />
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="main.js"></script>
+
+</head>
+
+<body>
+
+
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+
+      <img src="aronimage.jpg" alt="Profile" class="profile-pic" />
+      <h2 class="sidebar-title">Aron K Ngeno </h2>
+      <p class="sidebar-subtitle">Programmer and Machine Learning Engineer</p>
+    </div>
+    <nav class="nav-menu">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <hr>
+        <li><a href="#education">Education</a></li>
+
+        <hr>
+        <li><a href="#projects">Projects</a></li>
+        <hr>
+        <li><a href="#courses">Courses Taken & Certificates</a></li>
+        <hr>
+        <li><a href="#experience">Experience</a></li>
+        <hr>
+        <li><a href="#contact">Contact</a></li>
+
+      </ul>
+      <footer>
+        <p> Made with 💙 by Aonie &reg AonieSite </p>
+        <p>© 2025 Aron | Privacy Policy</p>
+      
+
+
+      </footer>
+    </nav>
+  </aside>
+
+
+  <main class="content">
+
+    <button class="toggle-btn" id="toggle-btn">&#9776;</button>
+
+    <section id="about" class="section">
+      <!-- ABOUT  -->
+      <div class="about-section">
+        <h1 class="about-title"> <span id = "Clockie">  </span>, I'm Ngenoh</h1>
+        <p id="anime-text" class="about-description">
+          👋👋HOLAA!! 🙌, Feel welcomed 🥹🫂!!!
+        </p>
+        
+        <script>
+          document.addEventListener("DOMContentLoaded", function () {
+            var typed = new Typed("#anime-text", {
+              strings: ["", " I am currently 🎓 student pursuing 🎓Computer Science🎓 Student aiming to specialize in 🤖 Machine Learning and AI!"],
+              typeSpeed: 50,
+              backSpeed: 100,
+              backDelay: 1000,
+              startDelay: 1,
+              loop: true,
+               cursorChar: "🤖👩‍💻🧑‍💻♨️🎓🎓🤚"
+
+              
+
+            });
+          });
+          function clock()
+           {
+            var time = new Date();
+            hours = time.getHours();
+            if(hours > 3 && hours < 12 )
+             document.getElementById("Clockie").innerHTML= "Good Morning";
+            else if (hours > 11 && hours < 15)
+              document.getElementById("Clockie").innerHTML = "Good Afterenoon";
+            else
+              document.getElementById("Clockie").innerHTML ="Good evening ";
+          
+          }
+          document.addEventListener("DOMContentLoaded", clock);
+        </script>
+
+        <!-- The Skill area -->
+        <div class="skill-badges">
+          <span class="badge">Programming</span>
+          <span class="badge">Blockchain Technology</span>
+          <span class="badge">Machine Learning</span>
+          <span class="badge">Iot</span>
+          <span class="badge"> AI </span>
+          <span class="badge"> frontend Developmet </span>
+          <span class="badge"> Backend Developmet </span>
+          <span class="badge"> Technical Writer </span>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="about-buttons">
+          <a href="MyAronCV.pdf" class="btn primary-btn">Download CV</a>
+          <a href="https://github.com/Wizard-hash2" class="btn secondary-btn">View Projects</a>
+        </div>
+
+        <!-- Social Links-->
+        <div class="social-links">
+          <a href="https://github.com/Wizard-hash2 " aria-label="Github"><i class="fab fa-github"></i></a>
+          <a href="https://wa.link/dlir63" aria-label="whatsapp"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://x.com/Innocenthac" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.facebook.com/100076292784562/posts/671247828761637/?mibextid=rS40aB7S9Ucbxw6v"
+            aria-label="facebook"><i class="fab fa-facebook"></i></a>
+        </div>
+      </div>
+
+
+
+      </H2>
+    </section>
+
+    <section id="education" class="section">
+      <h1 class="color">Education</h1>
+
+      <div class="education-item">
+        <h3>Kenyatta University</h3>
+        <span class="education-location">Nairobi, Kenya</span>
+        <div class="project-status.ongoing"> ongoing</div>
+
+        <h4>Bachelors in Computer Science</h4>
+
+        <span class="education-duration">September 2023 - Present</span>
+
+        <div class="education-courses">
+          <h5>Courses &amp; Activities</h5>
+          <ul>
+            <li>
+              <strong>Courses:</strong> Web Designing, Data Communication,
+              Backend Connectivity, Blockchain Technology, Data Structures and Algorithms,
+              System Developmet, Machine Learning, Internet Of Things, Probability and statisics, Calculus, Artificial
+              Intelligence
+            </li>
+            <li>
+              <strong>Activities and Societies:</strong> Chess, Computer science club, table Tennis, Christian Union
+              society
+            </li>
+          </ul>
+        </div>
+      </div>
+
+
+    </section>
+
+    <h2 class="color">Projects</h2>
+    <section id="projects" class="projects-section">
+
+
+
+      <div class="project-cards">
+        <!--  Project 1: Asthmatic Conditions Detector -->
+        <div class="project-card">
+          <img src="AVALANCHE4.jpg" alt="Asthmatic Conditions Detector" class="project-image" />
+          <div class="project-content">
+            <h3>Asthmatic Conditions Detector</h3>
+            <span class="project-status completed">Completed</span>
+            <p class="project-description">
+              A wearable device that detects changes in humidity and temperature,
+              notifies the asthmatic person using IoT and messaging technology.
+            </p>
+            <div class="project-tags">
+              <span class="tag">IoT</span>
+              <span class="tag">Wearable</span>
+              <span class="tag">Sensor Fusion</span>
+            </div>
+          </div>
+        </div>
+
+        <!--  Project 2: Trading Site -->
+        <div class="project-card">
+          <img src="foreximage.jpg" alt="Trading Site" class="project-image" />
+          <div class="project-content">
+            <h3>Trading Site</h3>
+            <span class="project-status in-progress">In Progress</span>
+            <p class="project-description">
+              A forex trading site that automatically analyzes currency exchange
+              rates using AI and offers insights on the market.
+            </p>
+            <div class="project-tags">
+              <span class="tag">AI</span>
+              <span class="tag">Web</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3: Power Learn Project -->
+        <div class="project-card">
+          <img src="PLPIMAGE.png" alt="Power Learn Project" class="project-image" />
+          <div class="project-content">
+            <h3>Power Learn Project</h3>
+            <span class="project-status ongoing">Ongoing</span>
+            <p class="project-description">
+              Under sponsorship to develop advanced python projects, Database engineering, Business Startups, Web
+              Development and software engineering.
+            </p>
+            <div class="project-tags">
+              <span class="tag">python</span>
+              <span class="tag">sql</span>
+              <span class="tag">html</span>
+              <span class="tag">css</span>
+              <span class="tag">js</span>
+              <span class="tag">finances mindset</span>
+              <span class="tag">git bash</span>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4: Database Connector Using Java -->
+        <div class="project-card">
+          <img src="Backend.jpg" alt="Database Connector Using Java" class="project-image" />
+          <div class="project-content">
+            <h3>Database Connector Using Java</h3>
+            <span class="project-status completed">Completed</span>
+            <p class="project-description">
+              A Java-based connectivity library to interact with Apache databases.
+              Integrates seamlessly with web-based dashboards.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Java</span>
+              <span class="tag">Database</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Backend Connectivity -->
+        <div class="project-card">
+          <img src="phpimage.jpg" alt="Backend Connectivity Using PHP" class="project-image" />
+          <div class="project-content">
+            <h3>Backend Connectivity Using PHP</h3>
+            <span class="project-status completed">Completed</span>
+            <p class="project-description">
+              I was able to connect PHP and log in page html using XAMPP, VsCode.
+            </p>
+            <div class="project-tags">
+              <span class="tag">PHP</span>
+              <span class="tag">Database</span>
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">VsCode</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <h1 class="color">Courses Taken</h1>
+
+
+    <section id="courses" class="courses-section">
+
+
+      <div class="courses-container">
+
+        <!-- first Course -->
+        <div class="course-card">
+          <h3>Bsc in Computer Science</h3>
+
+          <img src="AVALANCHE1.jpg" alt="MyGroupcourse" class="project-image" />
+          <p>
+            Naviagting through the world of technology and engineering <br><br>
+
+            <i class="fas fa-university "></i> Kenyatta University<br><br>
+            <i class="fas fa-calendar "></i> Sep, 2023 - till to date<br><br>
+
+
+          </p>
+
+        </div>
+
+        <!-- second course -->
+        <div class="course-card">
+          <h3>AI augmented Proffesional Development Skill in Digital age </h3>
+          <img src="alx certificate.jpg" alt="MyGroupcourse" class="project-image" />
+          <p>
+            Experienced in integrating AI solutions for digital transformation and workforce development. <br><br>
+
+            <i class="fas fa-university "></i> ALX<br><br>
+            <i class="fas fa-calendar "></i> May , 2024 - July, 2024<br><br>
+
+          </p>
+
+        </div>
+
+        <div class="course-card">
+          <h3>IoT Devices </h3>
+          <img src="Hackathon Cert.jpg" alt="MyGroupcourse" class="project-image" />
+          <p>
+            Developed skills in data collection, cloud integration, and automation for IoT solutions.<br><br>
+
+            <i class="fas fa-university "></i> Mama Ngina <br><br>
+            <i class="fas fa-calendar "></i> March, 2024<br><br>
+
+
+          </p>
+
+        </div>
+      </div>
+    </section>
+    <h2 class="color">Experience</h2>
+    <section id="experience" class="experience-section">
+
+      <!-- <div class="tmeline">
+
+        <div class="timeline-item">
+          <div class="timeline-icon">
+
+            <i class="fas fa-briefcase"></i>
+          </div>
+          <div class="timeline-content">
+            <h3>Technical Writer at MacFlex Writers Hub</h3>
+            <span class="timeline-date">Dec 2023 - Dec 2024</span>
+            <p>
+              I managed to write more than 1000 papers in various referencing styles,
+              including APA, Chicago, and Harvard.
+            </p>
+          </div>
+          
+        </div> 
+      
+
+
+        //I will add more here as time goes 
+   
+      
+
+      </div>
+    -->
+      <div class="education-item">
+        <h3>Technical Writer</h3>
+        <span class="education-location">Nairobi, Kenya</span>
+
+
+        <h4>Academic writer, editor and proofreader </h4>
+
+        <span class="education-duration">December 2023 - December, 2024</span>
+
+        <div class="education-courses">
+          <h5></h5>
+          <ul>
+
+
+            <li> > Authored and edited over 1,000 academic papers in diverse disciplines, adhering to rigorous
+              referencing standards like APA, Chicago, and Harvard.</li>
+            <li> > Specialized in crafting clear, concise, and compelling content tailored to academic and technical
+              audiences.</li>
+            <li> > Proven expertise in research-driven writing, ensuring accuracy and credibility in every project.</li>
+            <li> > Excelled in proofreading and refining documents to meet high-quality standards for publication.</li>
+            <li> > Strong understanding of academic integrity and ethical writing practices.</li>
+            <li> > Passionate about facilitating knowledge transfer and intellectual growth through well-structured
+              writing.</li>
+
+          </ul>
+        </div>
+      </div>
+
+    </section>
+
+
+
+
+    <section id="contact" class="contact-section">
+      <h2>Contact Me</h2>
+      <form class="contact-form" action="https://formspree.io/f/xyzedpkz" method="POST">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input id="name" type="text" placeholder="Your Name please" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input id="email" type="email" placeholder="Your Email address" name="email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" rows="5" placeholder="Your positive Message" name="message" required></textarea>
+        </div>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </section>
+
+
+
+  </main>
+
+
+
+</body>
+
+</html>
