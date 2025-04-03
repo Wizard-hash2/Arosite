@@ -26,7 +26,7 @@ Follow these steps to set up the project locally:
    ```
 2. **Navigate to the project directory:**
    ```bash
-   cd arosite
+   cd arosit
    ```
 3. **Open `index.html` in a browser** or use a local development server:
    ```bash
@@ -46,13 +46,15 @@ The portfolio is deployed at: https://wizard-hash2.github.io/Arosite
 ## Screenshots
 
 [My Home page](image.png)
+
 [Projects](image-1.png)
 [Contact information](image-2.png)
 [MY Courses](image-3.png)
 [My Experience](image-4.png)
 [My Education](image-5.png)
 
-This project is not open-source, please contact me
+
+# License: This project is not open-source, please contact me
 
 ## Contact
 
