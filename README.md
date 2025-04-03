@@ -2,7 +2,7 @@
 
 This is my personal portfolio website showcasing my projects, skills, and experiences. It is built using HTML, CSS, and JavaScript and designed for responsiveness and performance.
 
-Features
+# Features
 
 - Fully Responsive – Works on all screen sizes.
 - Project Showcase – Displays my best work with descriptions, images and links.
@@ -22,7 +22,7 @@ Follow these steps to set up the project locally:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/your-portfolio.git
+   git clone https://github.com/Wizard-hash2/Arosite.git
    ```
 2. **Navigate to the project directory:**
    ```bash
@@ -41,19 +41,21 @@ Follow these steps to set up the project locally:
 
 ## Deployment
 
-The portfolio is deployed at: [https://your-portfolio-link.com](https://your-portfolio-link.com)
+The portfolio is deployed at: https://wizard-hash2.github.io/Arosite
 
 ## Screenshots
 
-![Home Page](screenshots/home.png)
-![Projects Page](screenshots/projects.png)
+![Home Page](![My Home page](image.png)
+![Projects Page] ![Projects](image-1.png)# License
+![Contacts Page] ![Contact information](image-2.png)
+![MY Courses](image-3.png)
+![My Experience](image-4.png)
+![My Education](image-5.png)
 
-## License
-
-This project is open-source and available under the **MIT License**.
+This project is not open-source, please contact me
 
 ## Contact
 
-- **Email:** your.email@example.com
-- **GitHub:** [Your GitHub](https://github.com/your-username)
-- **LinkedIn:** [Your LinkedIn](https://linkedin.com/in/yourname)
+- **Email:** aronidengeno@gmail.com
+- **GitHub:** [My github](https://github.com/Wizard-hash2)
+
