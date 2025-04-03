@@ -46,11 +46,11 @@ The portfolio is deployed at: https://wizard-hash2.github.io/Arosite
 ## Screenshots
 
 [My Home page](image.png)
-![Projects](image-1.png)# License
- ![Contact information](image-2.png)
-![MY Courses](image-3.png)
-![My Experience](image-4.png)
-![My Education](image-5.png)
+[Projects](image-1.png)
+[Contact information](image-2.png)
+[MY Courses](image-3.png)
+[My Experience](image-4.png)
+[My Education](image-5.png)
 
 This project is not open-source, please contact me
 
