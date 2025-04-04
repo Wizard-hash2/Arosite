@@ -7,6 +7,8 @@ This is my personal portfolio website showcasing my projects, skills, and experi
 🌟 
 
 - Fully Responsive – Works on all screen sizes.
+- ![image](https://github.com/user-attachments/assets/a278aca5-8bf0-471a-a6b7-d8029af45932)
+
 - Project Showcase – Displays my best work with descriptions, images and links.
 - Smooth Animations – Enhances user experience.
 - Contact Form – Allows users to reach out to me directly.
