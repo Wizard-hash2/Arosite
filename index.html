@@ -9,11 +9,10 @@
   <link rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     integrity="sha512..." crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <script src="main.js"></script>
+  <script src="main.js" defer></script>
   <link rel="icon"
     href="https://images.pexels.com/photos/96381/pexels-photo-96381.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2 " />
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-  <script src="main.js"></script>
 
 </head>
 
@@ -25,7 +24,7 @@
 
       <img src="aronimage.jpg" alt="Profile" class="profile-pic" />
       <h2 class="sidebar-title">Aron K Ngeno </h2>
-      <p class="sidebar-subtitle">Programmer and Machine Learning Engineer</p>
+      <p class="sidebar-subtitle">Trader and AI/ML Engineer</p>
     </div>
     <nav class="nav-menu">
       <ul>
@@ -44,8 +43,8 @@
 
       </ul>
       <footer>
-        <p> Made with 💙 by Aonie &reg AonieSite </p>
-        <p>© 2025 Aron | Privacy Policy</p>
+        <p> Made with 💙 by Aronie &reg AonieSite </p>
+        <p>© 2026 Aron | Privacy Policy</p>
       
 
 
@@ -63,19 +62,19 @@
       <div class="about-section">
         <h1 class="about-title"> <span id = "Clockie">  </span>, I'm Ngenoh</h1>
         <p id="anime-text" class="about-description">
-          👋👋HOLAA!! 🙌, Feel welcomed 🥹🫂!!!
+          Welcome to my portfolio.
         </p>
         
         <script>
           document.addEventListener("DOMContentLoaded", function () {
             var typed = new Typed("#anime-text", {
-              strings: ["", " I am currently 🎓 student pursuing 🎓Computer Science🎓 Student aiming to specialize in 🤖 Machine Learning and AI!"],
+              strings: ["", "I build AI, machine learning, and trading systems with a strong mathematical foundation.", "I work on RAG pipelines, model development, and intelligent web products.", "Based in Nairobi, I design practical software for finance, data, and automation."],
               typeSpeed: 50,
               backSpeed: 100,
               backDelay: 1000,
               startDelay: 1,
               loop: true,
-               cursorChar: "🤖👩‍💻🧑‍💻♨️🎓🎓🤚"
+              cursorChar: "|"
 
               
 
@@ -98,20 +97,23 @@
 
         <!-- The Skill area -->
         <div class="skill-badges">
-          <span class="badge">Programming</span>
-          <span class="badge">Blockchain Technology</span>
+          <span class="badge">Python</span>
+          <span class="badge">TypeScript</span>
+          <span class="badge">JavaScript</span>
+          <span class="badge">Java</span>
+          <span class="badge">Dart</span>
+          <span class="badge">Rust</span>
+          <span class="badge">RAG Systems</span>
           <span class="badge">Machine Learning</span>
-          <span class="badge">Iot</span>
-          <span class="badge"> AI </span>
-          <span class="badge"> frontend Developmet </span>
-          <span class="badge"> Backend Developmet </span>
-          <span class="badge"> Technical Writer </span>
+          <span class="badge">Trading Automation</span>
+          <span class="badge">Data Engineering</span>
         </div>
 
         <!-- Action Buttons -->
         <div class="about-buttons">
-          <a href="MyAronCV.pdf" class="btn primary-btn">Download CV</a>
+          <a href="Aron_Kipkurui_cv.pdf" class="btn primary-btn">Download CV</a>
           <a href="https://github.com/Wizard-hash2" class="btn secondary-btn">View Projects</a>
+          
         </div>
 
         <!-- Social Links-->
@@ -132,7 +134,7 @@
       <h1 class="color">Education</h1>
 
       <div class="education-item">
-        <h3>Kenyatta University</h3>
+        <h3>Kenyatta University - MAMA NGINA UNIVERSITY</h3>
         <span class="education-location">Nairobi, Kenya</span>
         <div class="project-status.ongoing"> ongoing</div>
 
@@ -160,110 +162,149 @@
 
     </section>
 
-    <h2 class="color">Projects</h2>
+    <h2 class="color">Selected Projects</h2>
     <section id="projects" class="projects-section">
 
-
-
       <div class="project-cards">
-        <!--  Project 1: Asthmatic Conditions Detector -->
+
+
+
         <div class="project-card">
-          <img src="AVALANCHE4.jpg" alt="Asthmatic Conditions Detector" class="project-image" />
+          <img src="kenwork.png" alt="kenwork" class="project-image" />
           <div class="project-content">
-            <h3>Asthmatic Conditions Detector</h3>
+            <h3>Kenwork AI RAG FREELANCER System</h3>
             <span class="project-status completed">Completed</span>
             <p class="project-description">
-              A wearable device that detects changes in humidity and temperature,
-              notifies the asthmatic person using IoT and messaging technology.
+              I developed a freelancer platform that features both manual and
+automatic client-freelancer matching capabilities. The automatic matching
+system utilizes AIME, an AI-powered solution that integrates a RAG
+(Retrieval-Augmented Generation) system with OpenRouter Free API and
+Hugging Face API. 
             </p>
             <div class="project-tags">
-              <span class="tag">IoT</span>
-              <span class="tag">Wearable</span>
-              <span class="tag">Sensor Fusion</span>
+              <span class="tag">Typescript</span>
+              <span class="tag">Javascript</span>
+              <span class="tag">Python</span>
+              <span class="tag">SQL</span>
             </div>
           </div>
         </div>
-
-        <!--  Project 2: Trading Site -->
+        <!-- Project 1: Adaptive Ensemble Classifier -->
         <div class="project-card">
-          <img src="foreximage.jpg" alt="Trading Site" class="project-image" />
+          <img src="Bagging.webp" alt="Adaptive Ensemble Classifier" class="project-image" />
           <div class="project-content">
-            <h3>Trading Site</h3>
-            <span class="project-status in-progress">In Progress</span>
-            <p class="project-description">
-              A forex trading site that automatically analyzes currency exchange
-              rates using AI and offers insights on the market.
-            </p>
-            <div class="project-tags">
-              <span class="tag">AI</span>
-              <span class="tag">Web</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- Project 3: Power Learn Project -->
-        <div class="project-card">
-          <img src="PLPIMAGE.png" alt="Power Learn Project" class="project-image" />
-          <div class="project-content">
-            <h3>Power Learn Project</h3>
-            <span class="project-status ongoing">Ongoing</span>
-            <p class="project-description">
-              Under sponsorship to develop advanced python projects, Database engineering, Business Startups, Web
-              Development and software engineering.
-            </p>
-            <div class="project-tags">
-              <span class="tag">python</span>
-              <span class="tag">sql</span>
-              <span class="tag">html</span>
-              <span class="tag">css</span>
-              <span class="tag">js</span>
-              <span class="tag">finances mindset</span>
-              <span class="tag">git bash</span>
-
-            </div>
-          </div>
-        </div>
-
-        <!-- Project 4: Database Connector Using Java -->
-        <div class="project-card">
-          <img src="Backend.jpg" alt="Database Connector Using Java" class="project-image" />
-          <div class="project-content">
-            <h3>Database Connector Using Java</h3>
+            <h3>Adaptive_ensemble_classifire</h3>
             <span class="project-status completed">Completed</span>
             <p class="project-description">
-              A Java-based connectivity library to interact with Apache databases.
-              Integrates seamlessly with web-based dashboards.
+              Built ensemble models using bagging and AdaBoost with bootstrap sampling to reduce variance and improve
+              classification robustness.
             </p>
             <div class="project-tags">
-              <span class="tag">Java</span>
-              <span class="tag">Database</span>
+              <span class="tag">Python</span>
+              <span class="tag">Ensemble Learning</span>
+              <span class="tag">scikit-learn</span>
             </div>
           </div>
         </div>
 
-        <!-- Backend Connectivity -->
+        <!-- Project 2: Kaggle Titanic Competition -->
         <div class="project-card">
-          <img src="phpimage.jpg" alt="Backend Connectivity Using PHP" class="project-image" />
+          <img src="titanic.jpg" alt="Kaggle Titanic Competition" class="project-image" />
           <div class="project-content">
-            <h3>Backend Connectivity Using PHP</h3>
+            <h3>Kaggle_Titanic_compettion</h3>
             <span class="project-status completed">Completed</span>
             <p class="project-description">
-              I was able to connect PHP and log in page html using XAMPP, VsCode.
+              Developed a survival prediction model using SVM with hyperparameter tuning,
+              reaching a strong validation performance around 79% accuracy.
             </p>
             <div class="project-tags">
-              <span class="tag">PHP</span>
-              <span class="tag">Database</span>
-              <span class="tag">HTML</span>
-              <span class="tag">CSS</span>
-              <span class="tag">VsCode</span>
+              <span class="tag">SVM</span>
+              <span class="tag">ML Ops</span>
+              <span class="tag">Kaggle</span>
             </div>
           </div>
         </div>
-      </div>
+
+        <!-- Project 3: Pipeline Workflow -->
+        <div class="project-card">
+          <img src="pc.png" alt="Pipeline Workflow" class="project-image" />
+          <div class="project-content">
+            <h3>Pipeline_workflow</h3>
+            <span class="project-status completed">Completed</span>
+            <p class="project-description">
+              Created stratified K-fold machine learning pipelines with PCA and ensemble tuning via GridSearchCV and
+              RandomizedSearchCV.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Pipelines</span>
+              <span class="tag">PCA</span>
+              <span class="tag">Model Tuning</span>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4: CryptoChatbot -->
+        <div class="project-card">
+          <img src="crypto.png" alt="CryptoChatbot" class="project-image" />
+          <div class="project-content">
+            <h3>CryptoChatbot</h3>
+            <span class="project-status completed">Completed</span>
+            <p class="project-description">
+              Real-time crypto assistant that consumes CoinGecko market data and generates AI-assisted analysis for
+              short-term market monitoring.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag">CoinGecko API</span>
+              <span class="tag">Trading</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 5: TradingView Fadher -->
+        <div class="project-card">
+          <img src="CHT.jpg" alt="TradingView Fadher" class="project-image" />
+          <div class="project-content">
+            <h3>TradingView_Fadher</h3>
+            <span class="project-status completed">Completed</span>
+            <p class="project-description">
+              Built a TradingView Screener integration to analyze Stock, Crypto, Forex, and Bonds from one
+              consolidated dashboard flow intergrating RAG.
+            </p>
+            <div class="project-tags">
+              <span class="tag">TradingView API</span>
+              <span class="tag">Quant Signals</span>
+              <span class="tag">Analytics</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 6: WorldMonitor -->
+        
+        <!-- Project 7: Gaming App -->
+        <div class="project-card">
+          <img src="tictc.webp" alt="Gaming app" class="project-image" />
+          <div class="project-content">
+            <h3>Gaming_app</h3>
+            <span class="project-status completed">Completed</span>
+            <p class="project-description">
+              Implemented a Tic-Tac-Toe game against computer opponent using the Minimax algorithm and game-state
+              evaluation logic.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Dart</span>
+              <span class="tag">Minimax</span>
+              <span class="tag">Game AI</span>
+            </div>
+          </div>
+        </div>
+
+        
     </section>
 
 
-    <h1 class="color">Courses Taken</h1>
+    <h1 class="color">Courses Taken &amp; Certificates</h1>
 
 
     <section id="courses" class="courses-section">
@@ -279,13 +320,14 @@
           <p>
             Naviagting through the world of technology and engineering <br><br>
 
-            <i class="fas fa-university "></i> Kenyatta University<br><br>
+            <i class="fas fa-university "></i> Mama Ngina University<br><br>
             <i class="fas fa-calendar "></i> Sep, 2023 - till to date<br><br>
 
 
           </p>
 
         </div>
+   
 
         <!-- second course -->
         <div class="course-card">
@@ -307,12 +349,67 @@
           <p>
             Developed skills in data collection, cloud integration, and automation for IoT solutions.<br><br>
 
-            <i class="fas fa-university "></i> Mama Ngina <br><br>
+            <i class="fas fa-university "></i> Kenyatta University - MAMA NGINA UNIVERSITY <br><br>
             <i class="fas fa-calendar "></i> March, 2024<br><br>
 
 
           </p>
 
+        </div>
+      </div>
+
+      <div class="certifications-block">
+        <h2 class="color">Certifications</h2>
+        <div class="courses-container certifications-grid">
+          <div class="course-card certificate-card">
+            <img src="alx certificate.jpg" alt="ALX AI Career Essentials Certificate" class="project-image" />
+            <h3>AI Career Essentials</h3>
+            <p>ALX certificate focused on AI productivity, workflow support, and career-ready digital skills.</p>
+            <a class="certificate-link" href="66-alx-aice-ai-career-essentials-certificate-aron-ngeno.png" target="_blank" rel="noopener">Open certificate</a>
+          </div>
+
+          <div class="course-card certificate-card">
+            <div class="certificate-preview-wrap">
+              <iframe class="certificate-preview" src="plpcert.pdf#page=1&view=FitH" title="PLP Certificate preview" loading="lazy"></iframe>
+            </div>
+            <h3>PLP Certificate</h3>
+            <p>Power Learn Project training certificate covering software engineering and technical fundamentals.</p>
+            <a class="certificate-link" href="plpcert.pdf" target="_blank" rel="noopener">Open certificate</a>
+          </div>
+
+          <div class="course-card certificate-card">
+            <div class="certificate-preview-wrap">
+              <iframe class="certificate-preview" src="I2CSUpdate20250828-32-qk6isk.pdf#page=1&view=FitH" title="Intro to CS preview" loading="lazy"></iframe>
+            </div>
+            <h3>Intro to CS</h3>
+            <p>Foundational computer science learning credential captured in the updated I2CS certificate.</p>
+            <a class="certificate-link" href="I2CSUpdate20250828-32-qk6isk.pdf" target="_blank" rel="noopener">Open certificate</a>
+          </div>
+
+          <div class="course-card certificate-card">
+            <div class="certificate-preview-wrap">
+              <iframe class="certificate-preview" src="IBMDesign20250820-31-nnt23o.pdf#page=1&view=FitH" title="IBM Design Thinking preview" loading="lazy"></iframe>
+            </div>
+            <h3>IBM Design Thinking</h3>
+            <p>IBM credential covering design thinking, ideation, and human-centered problem solving.</p>
+            <a class="certificate-link" href="IBMDesign20250820-31-nnt23o.pdf" target="_blank" rel="noopener">Open certificate</a>
+          </div>
+
+          <div class="course-card certificate-card">
+            <div class="certificate-preview-wrap">
+              <iframe class="certificate-preview" src="IBM1%20Cert.pdf#page=1&view=FitH" title="IBM Certificate preview" loading="lazy"></iframe>
+            </div>
+            <h3>IBM Certificate</h3>
+            <p>IBM learning credential for practical enterprise and technology skills development.</p>
+            <a class="certificate-link" href="IBM1%20Cert.pdf" target="_blank" rel="noopener">Open certificate</a>
+          </div>
+
+          <div class="course-card certificate-card">
+            <img src="governance-risk-compliance-and-data-privacy.png" alt="Governance Risk Compliance and Data Privacy Certificate" class="project-image" />
+            <h3>Governance, Risk & Compliance</h3>
+            <p>Certificate covering data privacy, risk management, and governance fundamentals.</p>
+            <a class="certificate-link" href="governance-risk-compliance-and-data-privacy.png" target="_blank" rel="noopener">Open certificate</a>
+          </div>
         </div>
       </div>
     </section>
